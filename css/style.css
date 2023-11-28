@@ -2,4 +2,52 @@ html,
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+p {
+}
+
+nav {
+    font-family: ;
+    display:flex;
+    height:80px;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+}
+
+.logo{
+    display:flex;
+    background-color: aqua;
+}
+
+nav img{
+    width:20px;
+    height:20px;
+}
+
+nav h2{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.navigation-links{
+    background-color: azure;
+
+}
+
+
+section img{
+    width:375px;
+    height:230px;
 }
