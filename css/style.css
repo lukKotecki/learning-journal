@@ -6,23 +6,19 @@ body {
     font-family: 'Source Sans 3', sans-serif;
 }
 
-p {
-}
-
 nav {
-    font-family: ;
     display:flex;
-    height:80px;
+    height:60px;
     background-color: antiquewhite;
     align-items: center;
     justify-content: space-between;
 
 }
 
-nav a{
+nav a, .navigation-links a{
     text-decoration: none;
     color: black;
-    padding: 1em;
+    padding: 0.5em 1em;
 }
 
 .logo{
@@ -33,21 +29,55 @@ nav a{
 nav img{
     width:20px;
     height:20px;
+    margin: 0 0.5em 0 0.5em;
 }
 
 nav h2{
     font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
     margin:0;
-    padding:0;
 }
 
-.navigation-links{
+.navigation-links a{
     background-color: azure;
-
 }
 
+header{
+    color:white;
+    content: '';
+    background-image: url("/images/background.png");
+    background-size: cover;
+    background-position: 50% 70%;
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+    min-height: 18em;
+    display:flex;
+    align-items: end;
+}
+
+.unflipped{
+    transform: scaleX(-1);
+    margin: 0 5vw;
+}
+.unflipped time{
+    margin:1em 0;
+    display: inline-block;
+}
+header h1{
+
+    padding: 0;
+    margin:0;
+}
+.unflipped p{
+    margin-top: auto;
+    display: block;
+}
+
+
+section{
+    margin: 5vw;
+}
 
 section img{
-    width:375px;
-    height:230px;
+    width:100%;
 }
