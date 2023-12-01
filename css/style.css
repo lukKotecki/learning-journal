@@ -5,25 +5,25 @@ body {
     width: 100%;
     font-family: 'Source Sans 3', sans-serif;
 }
+a{
+    text-decoration: none;
+}
 
 nav {
     display:flex;
     height:60px;
-    background-color: antiquewhite;
     align-items: center;
     justify-content: space-between;
 
 }
 
 nav a, .navigation-links a{
-    text-decoration: none;
     color: black;
     padding: 0.5em 1em;
 }
 
 .logo{
     display:flex;
-    background-color: aqua;
 }
 
 nav img{
@@ -39,6 +39,10 @@ nav h2{
 }
 
 .navigation-links a{
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+.navigation-links a:hover{
     background-color: azure;
 }
 
@@ -81,12 +85,16 @@ h6{
     display: block;
 }
 
+article img{
+    margin-top: 20px;
+    
+}
 
-section{
+section, article{
     margin: 5vw;
 }
 
-section img{
+section img, article img{
     width:100%;
     max-height: 60vw;
     object-fit: cover;
@@ -95,7 +103,6 @@ section img{
 section time{
     display:inline-block;
     margin:1em 0;
-    background-color: blue;
 }
 
 section h3{
