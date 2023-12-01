@@ -85,9 +85,14 @@ h6{
     display: block;
 }
 
+.not-to-wide{
+    max-width: 850px;
+    margin:0 auto;
+}
+
 article img{
     margin-top: 20px;
-    
+    object-position: 50% 90%;
 }
 
 section, article{
@@ -140,7 +145,7 @@ footer p{
     .container{
         grid-template-columns: 1fr 1fr 1fr ;
     }
-    header{
+    a , article{
         grid-column: 1 / -1;
     }
 
